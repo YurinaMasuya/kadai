@@ -19,6 +19,17 @@
       .color-2{
           background-color: aqua;
       }
+      @keyframes animation-test {
+          0%{
+              background-color: pink;
+          }
+          100%{
+
+              background-color: purple;
+          }
+          
+      }.animation{position: absolute; animation: animation-test; animation-duration: 3s;
+      }
     </style>
     <title>自己紹介Part1
     </title>
@@ -33,5 +44,6 @@
             </p>
             <p class="box color-1">こんにちは</p>
             <p class="box color-2">さようなら</p>
+            <p class="box color-1 animation">アニメーション</p>
     </body>
 </html>
